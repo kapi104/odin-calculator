@@ -68,14 +68,10 @@ body {
 }
 
 .btn:hover {
-  background-color: rgb(233, 151, 0);
+  background-color: rgb(201, 130, 0);
 }
 
 .num:hover, .backspace:hover, .dot:hover {
-  background-color: rgb(192, 190, 190);
-}
-
-.btn:active {
   background-color: rgb(192, 190, 190);
 }
 
