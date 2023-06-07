@@ -60,7 +60,7 @@ body {
   justify-content: center;
   align-items: center;
   font-size: 200%;
-  border-radius: 10%;
+  border-radius: 10px;
 }
 
 .num, .backspace, .dot{
@@ -87,6 +87,26 @@ body {
   align-items: center;
 }
 
-.activated {
+.operator {
+  background-color: orange;
+}
+
+.operator:hover {
   background-color: rgb(201, 130, 0);
+}
+
+.operator:active {
+  background-color: rgb(192, 190, 190);
+}
+
+.stretch {
+  width: 38%;
+}
+
+.stretch:hover {
+  background-color: rgb(201, 130, 0);
+}
+
+.stretch:active {
+  background-color: rgb(192, 190, 190);
 }
